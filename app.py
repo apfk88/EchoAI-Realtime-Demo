@@ -16,7 +16,7 @@ st.set_page_config(page_title='Real-Time AT&T Agent', initial_sidebar_state='exp
 
 # Header
 st.image('echo_logo.svg', width=150)
-st.title('Real-Time AT&T Agent')
+st.title('Real-time Agent Assist')
 
 # Call Selection
 file_path = st.selectbox('Select a call', ['call1.mp3', 'call2.mp3', 'call3.mp3'], index=0)
